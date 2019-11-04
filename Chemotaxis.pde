@@ -7,7 +7,7 @@
  {     
  	//initialize bacteria variables here
  	frameRate(12);
- 	size(600,600);
+ 	size(550,600);
  	background(255,182,193);  
  	boba = new Bacteria [10];
  	for (int i = 0; i < boba.length; i++){
@@ -60,7 +60,13 @@
    		boba[i].show();
    		boba[i].walk();
    	}
-
+   	textSize(52);
+   	text("BOBA", 53, 126);
+   	text("TIME", 370, 126);
+   	textSize(22);
+   	text("mix with your straw!", 170, 525);
+   	textSize(16);
+   	text("the tapioca pearls will follow", 168, 550);
  } 	 
  void mousePressed()
 {
